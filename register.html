@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 >
+    Школа программирования «Hello World»
+</h1>
+<hr>
+<p>
+    Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединиться к нам! <br> Пожалуйста, заполните форму регистрации
+    ниже
+</p>
+<form>
+    <div class="action">
+    	<a class="sign-in" href="in.html">Войти</a>
+        <a class="sign-up active" href="#">Регистрация</a>
+    </div>
+
+    <div class="fields">
+        <p>Придумай логин</p>
+        <input type="text" placeholder="Придумай логин">
+
+        <p>Придумай пароль</p>
+        <input type="password" placeholder="Придумай пароль">
+
+        <p>Выбери пол</p>
+        <div class="wrapper">
+            <input type="radio" name="pol"><p>Мужской</p>
+            <input type="radio" name="pol"><p>Женский</p>
+        </div>
+
+        <p>Выбери желаемые курсы</p>
+        <div class="wrapper">
+            <input type="checkbox"><p>Frontend</p>
+            <input type="checkbox"><p>Roblox</p>
+            <input type="checkbox"><p>Figma</p>
+            <input type="checkbox"><p>Scratch</p>
+            <input type="checkbox"><p>Python</p>
+            <input type="checkbox"><p>Unity</p>
+        </div>
+
+        <p>Расскажи немного о себе, о своих достижениях и мечтах</p>
+        <textarea placeholder="Расскажи о себе!" rows="5" cols="50" id="aboutChild"></textarea>
+    </div>
+
+    <input type="button" value="Зарегистрироваться" class="button">
+    <hr>
+</form>
+</body>
+</html>
